@@ -12,10 +12,10 @@ a:hover {
 }
 
 body {
-  background: -webkit-linear-gradient(rgba(4, 13, 28, 0.95), rgba(7, 24, 53, 0.95)), url(spacebackground.jpg);
-  background: -moz-linear-gradient(rgba(4, 13, 28, 0.95), rgba(7, 24, 53, 0.95)), url(spacebackground.jpg);
-  background: -o-linear-gradient(rgba(4, 13, 28, 0.95), rgba(7, 24, 53, 0.95)), url(spacebackground.jpg);
-  background: linear-gradient(rgba(4, 13, 28, 0.95), rgba(7, 24, 53, 0.95)), url(spacebackground.jpg);
+  background: -webkit-linear-gradient(rgba(4, 13, 28, 0.75), rgba(7, 24, 53, 0.75)), url(spacebackground.jpg);
+  background: -moz-linear-gradient(rgba(4, 13, 28, 0.75), rgba(7, 24, 53, 0.75)), url(spacebackground.jpg);
+  background: -o-linear-gradient(rgba(4, 13, 28, 0.75), rgba(7, 24, 53, 0.75)), url(spacebackground.jpg);
+  background: linear-gradient(rgba(4, 13, 28, 0.75), rgba(7, 24, 53, 0.75)), url(spacebackground.jpg);
 }
 
 .title, .pretitle, .posttitle {
