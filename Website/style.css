@@ -12,7 +12,10 @@ a:hover {
 }
 
 body {
-  background: linear-gradient(#040d1c, #071835);
+  background: -webkit-linear-gradient(rgba(4, 13, 28, 0.95), rgba(7, 24, 53, 0.95)), url(spacebackground.jpg);
+  background: -moz-linear-gradient(rgba(4, 13, 28, 0.95), rgba(7, 24, 53, 0.95)), url(spacebackground.jpg);
+  background: -o-linear-gradient(rgba(4, 13, 28, 0.95), rgba(7, 24, 53, 0.95)), url(spacebackground.jpg);
+  background: linear-gradient(rgba(4, 13, 28, 0.95), rgba(7, 24, 53, 0.95)), url(spacebackground.jpg);
 }
 
 .title, .pretitle, .posttitle {
