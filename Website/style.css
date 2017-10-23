@@ -1,47 +1,51 @@
 html, body {
     margin: 0;
-    height: 100%;
+    height: 100vh;
+    font-family: "Raleway", sans-serif;      
 }
 
-a { 
-  text-decoration: none; 
+a {
+  text-decoration: none;
 }
 
-a:hover { 
-  text-decoration: underline; 
+a:hover {
+  text-decoration: underline;
 }
 
 body {
-  background: -webkit-linear-gradient(rgba(4, 13, 28, 0.75), rgba(7, 24, 53, 0.75)), url(spacebackground.jpg);
-  background: -moz-linear-gradient(rgba(4, 13, 28, 0.75), rgba(7, 24, 53, 0.75)), url(spacebackground.jpg);
-  background: -o-linear-gradient(rgba(4, 13, 28, 0.75), rgba(7, 24, 53, 0.75)), url(spacebackground.jpg);
-  background: linear-gradient(rgba(4, 13, 28, 0.75), rgba(7, 24, 53, 0.75)), url(spacebackground.jpg);
+  background: rgb(95, 136, 198);
 }
 
-.title, .pretitle, .posttitle {
+#pretitle, #posttitle, #title {
+  font-size: 32px;
+
   width: 100%;
-  display: flex;
-  position: fixed;
-  align-items: center;
-  justify-content: center;
+  text-align: center;
+  color: rgb(198, 236, 237);
 
-  font-family: "Raleway", sans-serif;
-  color: #f5f5f5;
+  opacity: 0;
 }
 
-.pretitle, .posttitle {
-  font-size: 48px;
-}
-
-.title {
-  height: 80%;
+#title {
   font-size: 128px;
 }
 
-.pretitle {
-  height: 55%;
+#links {
+  position: relative;
+  top: 25%; 
+  text-align: center;
+
+  opacity: 0;
 }
 
-.posttitle {
-  height: 105%;
+
+#footer {
+  background: rgb(8, 167, 75);
+  height: 15%;
+  width: 100%;
+  bottom: 0px;
+  position: absolute;
+  
+  display: flex;
+  align-items: flex-end;
 }
