@@ -6,7 +6,7 @@ let posttitle = document.getElementById("posttitle");
 let links = document.getElementById("links");
 
 let opacity = 0;
-let textSize = 64;
+let textSize = 128;
 
 function displayTitle() {
   if(opacity <= 1.0) {
@@ -14,8 +14,8 @@ function displayTitle() {
     title.style.opacity = opacity;
   }
 
-  if(textSize <= 128) {
-    textSize++;
+  if(textSize <= 256) {
+    textSize += 2;
     title.style.fontSize = textSize + "px";
   }
 
