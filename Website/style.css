@@ -32,7 +32,8 @@ body {
 }
 
 #title {
-  font-size: 128px;
+  font-size: 256px;
+  opacity: 1;
 }
 
 #links {
